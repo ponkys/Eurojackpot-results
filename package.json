@@ -1,0 +1,20 @@
+{
+  "name": "eurojackpot-results",
+  "version": "1.0.0",
+  "description": "Scrap euro jackpot results and returns them.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cheerio": "1.0.0-rc.2",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "got": "9.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
